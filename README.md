@@ -64,7 +64,7 @@ The examples are organized to support hands-on learning, review, and adaptation 
 ### Setup
 
 ```bash
-git clone https://github.com/your-username/Integrated-QA-Training-Project.git
+git clone https://github.com/soghayarmahmoud/Integrated-QA-Training-Project.git
 cd Integrated-QA-Training-Project
 ```
 
