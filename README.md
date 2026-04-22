@@ -1,65 +1,107 @@
-#  Integrated QA Training Project
+# Integrated QA Training Project
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Platforms](https://img.shields.io/badge/platform-Web%20%7C%20API%20%7C%20DB-lightgrey)
 
-> A comprehensive QA training project covering Web UI, REST API, and Database testing.
+> A structured quality assurance training repository that demonstrates UI, API, and database testing workflows.
 
-<hr/>
+## Table of Contents
 
-## 🎯 Objectives
-- Validate end-to-end e-commerce flow on **SauceDemo** (UI)
-- Perform CRUD operations testing on **Fake Store API**
-- Verify complex SQL JOIN queries on **Sakila Database**
+- [Overview](#overview)
+- [Platforms Under Test](#platforms-under-test)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [Security](#security)
+- [License](#license)
 
-<hr/>
+## Overview
 
-##  Platforms Under Test
+This repository is designed as a learning and demonstration project for integrated QA testing across multiple layers:
 
-| Platform | Tool | Environment |
-|----------|------|-------------|
-| Web UI | Selenium / Cypress | SauceDemo (https://www.saucedemo.com) |
-| API | Postman / REST Client | Fake Store API (https://fakestoreapi.com) |
-| Database | MySQL / PostgreSQL | Sakila Sample Database |
+- Web UI testing for user-facing workflows
+- REST API validation for service endpoints
+- Database verification using sample datasets and SQL queries
 
-<hr/>
+The examples are organized to support hands-on learning, review, and adaptation for new QA practitioners.
 
-##  Project Structure
+## Platforms Under Test
+
+| Platform | Tools | Target Scope |
+|----------|-------|--------------|
+| Web UI | Selenium / Cypress | SauceDemo e-commerce user flows |
+| API | Postman / REST Client | Fake Store API CRUD and validation |
+| Database | MySQL / PostgreSQL | Sakila sample database queries |
+
+## Repository Structure
 
 ```bash
-├── docs/               # Test plans & strategy
-├── test-cases/         # Test cases per platform
-├── test-reports/       # Report templates
-├── scripts/            # Postman collections & SQL scripts
-└── assets/             # Supporting files
+├── docs/                # Test plans, strategy, and documentation
+├── test-cases/          # Platform-specific test cases
+├── test-reports/        # Test reporting templates and summaries
+├── scripts/             # Postman collections, automation scripts, and SQL scripts
+├── assets/              # Supporting files and reference data
+├── .github/             # GitHub configuration, issue and PR templates
+├── CONTRIBUTING.md      # Contribution guidelines
+├── CODE_OF_CONDUCT.md   # Community behavior expectations
+├── SECURITY.md          # Security reporting guidance
+├── SUPPORT.md           # Support and help information
+└── LICENSE              # Open source license
 ```
 
-<hr/>
+## Getting Started
 
-## 🚀 Getting Started
+### Prerequisites
 
-1.Clone the repository:
+- Git installed
+- Local development tools for your chosen platform
+- A QA or testing environment for executing the examples
+
+### Setup
+
 ```bash
 git clone https://github.com/your-username/Integrated-QA-Training-Project.git
+cd Integrated-QA-Training-Project
 ```
-2.Review the **Test Plan**
 
-3.Execute test cases from **/test-cases**
+### Recommended workflow
 
-4.Use templates in **/test-reports** to document results
+1. Review the documentation in `docs/`.
+2. Choose a platform area from `test-cases/`.
+3. Execute the included examples.
+4. Record results in `test-reports/`.
 
-<hr/>
+## Usage
 
+- Use the UI test cases to validate end-to-end flows.
+- Use the API examples to verify endpoint behavior and data correctness.
+- Use the database scripts to validate queries and schema integrity.
+
+## Documentation
+
+This repository includes supporting documentation for:
+
+- Contribution guidelines: `CONTRIBUTING.md`
+- Community standards: `CODE_OF_CONDUCT.md`
+- Security reporting: `SECURITY.md`
+- Support and help: `SUPPORT.md`
 
 ## Contributing
-Please read **CONTRIBUTING.md** before opening issues or pull requests.
+See `CONTRIBUTING.md` for details on how to report issues, submit improvements, and participate in the project.
 
-<hr/>
+## Code of Conduct
+
+Please follow `CODE_OF_CONDUCT.md` when interacting with project maintainers and contributors.
+
+## Security
+
+If you discover a security vulnerability, follow the guidance in `SECURITY.md`.
 
 ## License
-This project is licensed under the MIT License.
 
-
----
+This repository is licensed under the MIT License. See `LICENSE` for full details.
 
